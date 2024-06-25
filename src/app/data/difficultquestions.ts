@@ -1,14 +1,5 @@
 export const difficultQuestions = [
-    {
-      country: "Bhutan",
-      correct: "Thimphu",
-      options: ["Kathmandu", "Thimphu", "Dhaka"],
-    },
-    {
-      country: "Kyrgyzstan",
-      correct: "Bishkek",
-      options: ["Tashkent", "Bishkek", "Dushanbe"],
-    },
+   
     {
       country: "Mozambique",
       correct: "Maputo",
@@ -38,11 +29,31 @@ export const difficultQuestions = [
       country: "Tajikistan",
       correct: "Dushanbe",
       options: ["Ashgabat", "Dushanbe", "Bishkek"],
+    }, 
+    {
+      country: "Republic of the Congo",
+      correct: "Brazzaville",
+      options: ["Kinshasa", "Brazzaville", "Libreville"],
+    },
+    {
+      country: "Democratic Republic of the Congo",
+      correct: "Kinshasa",
+      options: ["Brazzaville", "Kinshasa", "Luanda"],
     },
     {
       country: "Lesotho",
       correct: "Maseru",
       options: ["Gaborone", "Maseru", "Mbabane"],
+    },
+    {
+      country: "Cameroon",
+      correct: "Yaoundé",
+      options: ["Douala", "Yaoundé", "Libreville"],
+    },
+    {
+      country: "Ivory Coast",
+      correct: "Yamoussoukro",
+      options: ["Abidjan", "Yamoussoukro", "Accra"],
     },
     {
       country: "Vanuatu",
@@ -74,16 +85,7 @@ export const difficultQuestions = [
       correct: "Honiara",
       options: ["Port Moresby", "Honiara", "Nuku'alofa"],
     },
-    {
-      country: "Cameroon",
-      correct: "Yaoundé",
-      options: ["Douala", "Yaoundé", "Libreville"],
-    },
-    {
-      country: "Ivory Coast",
-      correct: "Yamoussoukro",
-      options: ["Abidjan", "Yamoussoukro", "Accra"],
-    },
+    
     {
       country: "Ghana",
       correct: "Accra",
@@ -100,14 +102,14 @@ export const difficultQuestions = [
       options: ["Bamako", "Dakar", "Conakry"],
     },
     {
-      country: "Republic of the Congo",
-      correct: "Brazzaville",
-      options: ["Kinshasa", "Brazzaville", "Libreville"],
+      country: "Bhutan",
+      correct: "Thimphu",
+      options: ["Kathmandu", "Thimphu", "Dhaka"],
     },
     {
-      country: "Democratic Republic of the Congo",
-      correct: "Kinshasa",
-      options: ["Brazzaville", "Kinshasa", "Luanda"],
+      country: "Kyrgyzstan",
+      correct: "Bishkek",
+      options: ["Tashkent", "Bishkek", "Dushanbe"],
     },
   ];
   

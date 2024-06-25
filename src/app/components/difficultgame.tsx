@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { easyQuestions } from '../data/easyquestions';
+import { difficultQuestions } from '../data/difficultquestions';
 
-export default function EasyGame() {
+export default function DifficultGame() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -32,14 +32,14 @@ export default function EasyGame() {
   }, [timeLeft, showScore, isCountdownOver]);
 
   const handleAnswerOptionClick = (answer: string) => {
-    if (answer === easyQuestions[currentQuestion].correct) {
+    if (answer === difficultQuestions[currentQuestion].correct) {
       setScore(score + 1);
     } else {
       setScore(score - 2);
     }
 
     const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < easyQuestions.length) {
+    if (nextQuestion < difficultQuestions.length) {
       setCurrentQuestion(nextQuestion);
       setTimeLeft(10);
     } else {
@@ -74,11 +74,11 @@ export default function EasyGame() {
         <h2 className="text-2xl font-bold">Starting in {countdown}...</h2>
       ) : (
         <div className="flex flex-col items-center">
-          <h1 className="text-2xl font-bold mb-4">What is the capital of {easyQuestions[currentQuestion].country}?</h1>
+          <h1 className="text-2xl font-bold mb-4">What is the capital of {difficultQuestions[currentQuestion].country}?</h1>
           <h1 className="text-2xl font-bold mb-4">You have {timeLeft} seconds left.</h1>
           <h1 className="text-2xl font-bold mb-4"> </h1>
           <div className="grid grid-cols-1 gap-4">
-            {easyQuestions[currentQuestion].options.map((option) => (
+            {difficultQuestions[currentQuestion].options.map((option) => (
               <button
                 key={option}
                 onClick={() => handleAnswerOptionClick(option)}

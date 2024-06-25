@@ -8,8 +8,8 @@ export default function EasyGame() {
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [timeLeft, setTimeLeft] = useState(10);
-  const [countdown, setCountdown] = useState(3); // Countdown timer
-  const [isCountdownOver, setIsCountdownOver] = useState(false); // Track if countdown is over
+  const [countdown, setCountdown] = useState(3); 
+  const [isCountdownOver, setIsCountdownOver] = useState(false); 
 
   // Countdown logic
   useEffect(() => {
