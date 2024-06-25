@@ -1,5 +1,41 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# YOUR PROJECT TITLE
+#### Video Demo:  <URL HERE>
+#### Description: #### Description:
+This project aims to create an interactive quiz game that challenges players' knowledge of world capitals. It provides an engaging and educational experience for users of all ages, testing their memory and geographical awareness. Players can select from three difficulty levels—Easy, Medium, and Difficult—to suit their proficiency and enjoy learning in a fun way.
+
+Through this project, I explored frontend development using React.js and Next.js, incorporating TypeScript for type safety and Tailwind CSS for streamlined styling. The game features randomized questions fetched from JSON data files, a countdown timer for each question, and dynamic score tracking. Users can restart the game or quit to choose another difficulty level, enhancing replayability and user experience.
+
+Feel free to explore the project, contribute enhancements, or use it as a learning resource. Enjoy playing and learning about world capitals!
+
+
+# My CS50 Project
+
+## Overview
+Welcome to my CS50 project! This web application is a quiz game that tests your knowledge of world capitals across different difficulty levels. It was developed using React.js and Next.js as part of the CS50x course by Harvard University.
+
+## Features
+- **Three Difficulty Levels:** Choose from Easy, Medium, and Difficult levels.
+- **Randomized Questions:** Questions are fetched from JSON data files and presented randomly.
+- **Score Tracking:** Keep track of your score as you progress through the quiz.
+- **Timer:** Each question has a time limit, adding a time-bound challenge to the game.
+- **Restart and Quit:** Options to restart the game or quit to select another difficulty level.
+
+## Technologies Used
+- **Frontend:** React.js, Next.js, TypeScript, Tailwind CSS
+- **Data Management:** JSON data files
+- **Deployment:** GitHub Pages
+
+## Getting Started
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:your-username/my-cs50-project.git
+   cd my-cs50-project
+
+
 ## Getting Started
 
 First, run the development server:
