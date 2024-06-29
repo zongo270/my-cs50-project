@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# MY-CS50-PROJECT
-#### Video Demo:  <URL HERE>
+# MY-CS50-PROJECT: The Capital City Game
+#### Video Demo:  https://youtu.be/E7Y8avb07a4
 #### Description: #### Description:
 This project aims to create an interactive quiz game that challenges players' knowledge of world capitals. It provides an engaging and educational experience for users of all ages, testing their memory and geographical awareness. Players can select from three difficulty levels—Easy, Medium, and Difficult—to suit their proficiency and enjoy learning in a fun way.
 
